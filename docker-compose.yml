@@ -1,0 +1,18 @@
+version: '3'
+services:
+    lfs_service:
+        image: lfs-image
+        build:
+            context: .
+        environment:
+            LFS: /mnt/lfs
+            DISPLAY: $DISPLAY
+        working_dir: /lfs
+        hostname: lfs-docker
+        network_mode: "host"
+        privileged: true
+        volumes:
+            - .:/lfs
+            - /tmp/.X11-unix/:/tmp/.X11-unix
+        tty: true
+        command: ["/bin/bash"] 
