@@ -37,3 +37,4 @@ export CONFIG_SITE=$LFS/usr/share/config.site
 ./steps/compile-tar-1.35_1.sh
 ./steps/compile-xz-5.46_1.sh
 ./steps/compile-binutils-2.42_2.sh
+./steps/compile-gcc-13.2.0_2.sh
