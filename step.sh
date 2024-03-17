@@ -32,3 +32,4 @@ export CONFIG_SITE=$LFS/usr/share/config.site
 ./steps/compile-grep-3.11_1.sh
 ./steps/compile-gzip-1.13_1.sh
 ./steps/compile-make-4.4.1_1.sh
+./steps/compile-patch-2.7.6_1.sh
