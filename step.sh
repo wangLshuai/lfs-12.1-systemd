@@ -36,3 +36,4 @@ export CONFIG_SITE=$LFS/usr/share/config.site
 ./steps/compile-sed-4.9_1.sh
 ./steps/compile-tar-1.35_1.sh
 ./steps/compile-xz-5.46_1.sh
+./steps/compile-binutils-2.42_2.sh
