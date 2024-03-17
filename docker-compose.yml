@@ -6,6 +6,7 @@ services:
             context: .
         environment:
             LFS: /mnt/lfs
+            LFS_TGT: x86_64-lfs-linux-gnu
             DISPLAY: $DISPLAY
         working_dir: /lfs
         hostname: lfs-docker
