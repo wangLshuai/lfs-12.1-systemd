@@ -12,6 +12,6 @@ steps/link-source.sh
 export MAKEFLAGS=-j`nproc`
 ./steps/compile-binutils-2.42_1.sh
 ./steps/compile-gcc-13.2.0_1.sh
-
+./steps/export-linux-6.7.4-header.sh
 
 
