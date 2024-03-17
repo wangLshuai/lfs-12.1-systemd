@@ -19,3 +19,4 @@ export CONFIG_SITE=$LFS/usr/share/config.site
 ./steps/compile-gcc-13.2.0_1.sh
 ./steps/export-linux-6.7.4-header.sh
 ./steps/compile-glib-2.39.sh
+./steps/compile-libstdc++.sh
