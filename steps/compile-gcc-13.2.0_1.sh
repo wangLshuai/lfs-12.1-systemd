@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 cd $LFS/sources
 
 rm -rf gcc-13.2.0
@@ -43,5 +44,7 @@ cd build
 
 make
 make install
-
-rm -rf gcc-13.2.0
+cd ..
+cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
+	`dirname $($LFS_TGT-gcc -print-libgcc-file-name)`/include/limits.h
+rm -rf $LFS/sources/gcc-13.2.0

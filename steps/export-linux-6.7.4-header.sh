@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 cd $LFS/sources
 
 rm -rf linux-6.7.4

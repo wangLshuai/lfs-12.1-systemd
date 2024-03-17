@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 cd $LFS/sources
 
 rm -rf binutils-2.42
