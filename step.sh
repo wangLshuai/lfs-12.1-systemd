@@ -30,3 +30,4 @@ export CONFIG_SITE=$LFS/usr/share/config.site
 ./steps/compile-findutils-4.9.0_1.sh
 ./steps/compile-gawk-5.3.0_1.sh
 ./steps/compile-grep-3.11_1.sh
+./steps/compile-gzip-1.13_1.sh
