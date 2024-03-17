@@ -27,3 +27,4 @@ export CONFIG_SITE=$LFS/usr/share/config.site
 ./steps/compile-bash-5.2.21_1.sh
 ./steps/compile-diffutils-3.10_1.sh
 ./steps/compile-file-5.45_1.sh
+./steps/compile-findutils-4.9.0_1.sh
