@@ -34,3 +34,4 @@ export CONFIG_SITE=$LFS/usr/share/config.site
 ./steps/compile-make-4.4.1_1.sh
 ./steps/compile-patch-2.7.6_1.sh
 ./steps/compile-sed-4.9_1.sh
+./steps/compile-tar-1.35_1.sh
