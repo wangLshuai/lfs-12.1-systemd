@@ -25,6 +25,7 @@ export CONFIG_SITE=$LFS/usr/share/config.site
 ./steps/compile-m4-1.4.19_1.sh
 ./steps/compile-ncurses-6.4-20230520_1.sh
 ./steps/compile-bash-5.2.21_1.sh
+./steps/compile-coreutils-9.4_1.sh
 ./steps/compile-diffutils-3.10_1.sh
 ./steps/compile-file-5.45_1.sh
 ./steps/compile-findutils-4.9.0_1.sh
