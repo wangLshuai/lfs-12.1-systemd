@@ -12,6 +12,6 @@ cd bash-5.2.21
 	--without-bash-malloc
 make
 make DESTDIR=$LFS install
-ln -sv bash $LFS/bin/sh
+ln -svf bash $LFS/bin/sh
 rm -rf $LFS/sources/bash-5.2.21
 

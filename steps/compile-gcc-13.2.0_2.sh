@@ -43,4 +43,4 @@ cd build
 make
 make DESTDIR=$LFS install
 rm -rf $LFS/sources/gcc-13.2.0
-ln -sv gcc $LFS/usr/bin/cc
+ln -svf gcc $LFS/usr/bin/cc

@@ -8,7 +8,7 @@ steps/remove-disk.sh
 steps/disk.sh
 steps/part-disk.sh
 steps/mount.sh
-steps/link-source.sh
+steps/cp-source.sh
 steps/lfs-dir-user.sh
 
 set +h
@@ -39,3 +39,15 @@ export CONFIG_SITE=$LFS/usr/share/config.site
 ./steps/compile-xz-5.46_1.sh
 ./steps/compile-binutils-2.42_2.sh
 ./steps/compile-gcc-13.2.0_2.sh
+./steps/ready-chroot-env.sh
+cp chroot-step.sh "$LFS"
+cp -rf chroot-steps "$LFS"
+# chroot
+chroot "$LFS" /usr/bin/env -i \
+	HOME=/root \
+	TERM="$TERM" \
+	PS1='(lfs chroot) \u:\w\$ ' \
+	PATH=/usr/bin:/usr/sbin \
+	MAKEFLAGS="-j$(nproc)" \
+	TESTSUITEFLAGS="-j$(nproc)" \
+	/chroot-step.sh
