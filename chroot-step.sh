@@ -96,3 +96,4 @@ rm -rf /usr/share/{info,man,doc}/*
 find /usr/{lib,libexec} -name \*.la -delete
 rm -rf /tools
 /chroot-steps/compile-man-pages-6.06_1.sh
+/chroot-steps/copy-iana-etc-20240125.sh
