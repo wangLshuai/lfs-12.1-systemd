@@ -101,3 +101,4 @@ rm -rf /tools
 /chroot-steps/compile-zlib-1.3.1.sh
 /chroot-steps/compile-bzip2-1.0.8.sh
 /chroot-steps/compile-xz-5.4.6.sh
+/chroot-steps/compile-zstd-1.5.5.sh
