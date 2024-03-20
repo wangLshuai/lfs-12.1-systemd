@@ -103,3 +103,4 @@ rm -rf /tools
 /chroot-steps/compile-xz-5.4.6.sh
 /chroot-steps/compile-zstd-1.5.5.sh
 /chroot-steps/compile-file-5.45.sh
+/chroot-steps/compile-readline-8.2.sh
