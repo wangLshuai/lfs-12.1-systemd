@@ -100,3 +100,4 @@ rm -rf /tools
 /chroot-steps/compile-glibc-2.39_2.sh
 /chroot-steps/compile-zlib-1.3.1.sh
 /chroot-steps/compile-bzip2-1.0.8.sh
+/chroot-steps/compile-xz-5.4.6.sh
