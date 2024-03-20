@@ -98,3 +98,4 @@ rm -rf /tools
 /chroot-steps/compile-man-pages-6.06_1.sh
 /chroot-steps/copy-iana-etc-20240125.sh
 /chroot-steps/compile-glibc-2.39_2.sh
+/chroot-steps/compile-zlib-1.3.1.sh
