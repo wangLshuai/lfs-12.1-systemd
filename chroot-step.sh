@@ -91,3 +91,7 @@ chmod -v 600  /var/log/btmp
 /chroot-steps/compile-python-3.12.2_1.sh
 /chroot-steps/compile-textinfo-7.1_1.sh
 /chroot-steps/compile-util-linux-2.39.3_1.sh
+
+rm -rf /usr/share/{info,man,doc}/*
+find /usr/{lib,libexec} -name \*.la -delete
+rm -rf /tools
