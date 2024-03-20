@@ -3,6 +3,7 @@
 set -e
 if [ ! "$HOSTNAME" = "lfs-docker" ];then
 	echo "run this script in lfs-docker"
+    exit 1
 fi
 steps/remove-disk.sh
 steps/disk.sh
