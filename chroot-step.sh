@@ -109,3 +109,4 @@ rm -rf /tools
 /chroot-steps/compile-flex-2.6.4.sh
 /chroot-steps/compile-tcl-8.6.13.sh
 /chroot-steps/compile-expect-5.45.4.sh
+/chroot-steps/compile-dejagnu-1.6.3.sh
