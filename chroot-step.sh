@@ -106,3 +106,4 @@ rm -rf /tools
 /chroot-steps/compile-readline-8.2.sh
 /chroot-steps/compile-m4-1.4.19.sh
 /chroot-steps/compile-bc-6.7.5.sh
+/chroot-steps/compile-flex-2.6.4.sh
