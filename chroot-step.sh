@@ -112,3 +112,4 @@ rm -rf /tools
 /chroot-steps/compile-dejagnu-1.6.3.sh
 /chroot-steps/compile-pkgconf-2.1.1.sh
 /chroot-steps/compile-binutils-2.42.sh
+/chroot-steps/compile-gmp-6.3.0.sh
