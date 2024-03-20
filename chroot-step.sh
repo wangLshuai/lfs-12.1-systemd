@@ -87,3 +87,4 @@ chmod -v 600  /var/log/btmp
 
 /chroot-steps/compile-gettext-0.22.4.sh
 /chroot-steps/compile-bison-3.8.2_1.sh
+/chroot-steps/compile-perl-5.38.2_1.sh
