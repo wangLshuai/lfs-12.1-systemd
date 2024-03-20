@@ -99,3 +99,4 @@ rm -rf /tools
 /chroot-steps/copy-iana-etc-20240125.sh
 /chroot-steps/compile-glibc-2.39_2.sh
 /chroot-steps/compile-zlib-1.3.1.sh
+/chroot-steps/compile-bzip2-1.0.8.sh
