@@ -132,3 +132,4 @@ rm -rf /tools
 /chroot-steps/compile-gdbm-1.23.sh
 /chroot-steps/compile-gperf-3.1.sh
 /chroot-steps/compile-expat-2.6.0.sh
+/chroot-steps/compile-inetutils-2.5.sh
