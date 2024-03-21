@@ -137,3 +137,4 @@ rm -rf /tools
 /chroot-steps/compile-perl-5.38.2.sh
 /chroot-steps/compile-xml-parser-2.47.sh
 /chroot-steps/compile-intltool-0.51.0.sh
+/chroot-steps/compile-autoconf-2.72.sh
