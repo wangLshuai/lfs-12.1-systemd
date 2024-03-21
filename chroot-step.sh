@@ -130,3 +130,4 @@ rm -rf /tools
 /chroot-steps/compile-bash-5.2.21.sh
 /chroot-steps/compile-libtool-2.4.7.sh
 /chroot-steps/compile-gdbm-1.23.sh
+/chroot-steps/compile-gperf-3.1.sh
