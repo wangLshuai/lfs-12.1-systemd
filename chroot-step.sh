@@ -123,3 +123,4 @@ rm -rf /tools
 /chroot-steps/compile-gcc-13.2.0.sh
 /chroot-steps/compile-ncurses-6.4-20230520.sh
 /chroot-steps/compile-sed-4.9.sh
+/chroot-steps/compile-psmisc-23.6.sh
