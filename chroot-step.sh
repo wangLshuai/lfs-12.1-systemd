@@ -115,3 +115,4 @@ rm -rf /tools
 /chroot-steps/compile-gmp-6.3.0.sh
 /chroot-steps/compile-mpfr-4.2.1.sh
 /chroot-steps/compile-mpc-1.3.1.sh
+/chroot-steps/compile-attr-2.5.2.sh
