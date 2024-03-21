@@ -138,3 +138,4 @@ rm -rf /tools
 /chroot-steps/compile-xml-parser-2.47.sh
 /chroot-steps/compile-intltool-0.51.0.sh
 /chroot-steps/compile-autoconf-2.72.sh
+/chroot-steps/compile-automake-1.16.5.sh
