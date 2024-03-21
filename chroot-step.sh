@@ -128,3 +128,4 @@ rm -rf /tools
 /chroot-steps/compile-bison-3.8.2.sh
 /chroot-steps/compile-grep-3.11.sh
 /chroot-steps/compile-bash-5.2.21.sh
+/chroot-steps/compile-libtool-2.4.7.sh
