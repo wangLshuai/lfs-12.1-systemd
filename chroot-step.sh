@@ -117,3 +117,4 @@ rm -rf /tools
 /chroot-steps/compile-mpc-1.3.1.sh
 /chroot-steps/compile-attr-2.5.2.sh
 /chroot-steps/compile-acl-2.3.2.sh
+/chroot-steps/compile-libcap-2.69.sh
