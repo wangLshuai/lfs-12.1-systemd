@@ -124,3 +124,4 @@ rm -rf /tools
 /chroot-steps/compile-ncurses-6.4-20230520.sh
 /chroot-steps/compile-sed-4.9.sh
 /chroot-steps/compile-psmisc-23.6.sh
+/chroot-steps/compile-gettext-0.22.4_2.sh
