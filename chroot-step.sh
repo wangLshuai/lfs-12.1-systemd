@@ -127,3 +127,4 @@ rm -rf /tools
 /chroot-steps/compile-gettext-0.22.4_2.sh
 /chroot-steps/compile-bison-3.8.2.sh
 /chroot-steps/compile-grep-3.11.sh
+/chroot-steps/compile-bash-5.2.21.sh
