@@ -134,3 +134,4 @@ rm -rf /tools
 /chroot-steps/compile-expat-2.6.0.sh
 /chroot-steps/compile-inetutils-2.5.sh
 /chroot-steps/compile-less-643.sh
+/chroot-steps/compile-perl-5.38.2.sh
