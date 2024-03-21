@@ -121,3 +121,4 @@ rm -rf /tools
 /chroot-steps/compile-libxcrypt-4.4.36.sh
 /chroot-steps/compile-shadow-4.14.5.sh
 /chroot-steps/compile-gcc-13.2.0.sh
+/chroot-steps/compile-ncurses-6.4-20230520.sh
