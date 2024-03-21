@@ -142,3 +142,4 @@ rm -rf /tools
 /chroot-steps/compile-openssl-3.2.1.sh
 /chroot-steps/compile-kmod-31.sh
 /chroot-steps/compile-elfutils-0.190.sh
+/chroot-steps/compile-libffi-3.4.4.sh
