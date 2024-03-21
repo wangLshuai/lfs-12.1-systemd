@@ -141,3 +141,4 @@ rm -rf /tools
 /chroot-steps/compile-automake-1.16.5.sh
 /chroot-steps/compile-openssl-3.2.1.sh
 /chroot-steps/compile-kmod-31.sh
+/chroot-steps/compile-elfutils-0.190.sh
