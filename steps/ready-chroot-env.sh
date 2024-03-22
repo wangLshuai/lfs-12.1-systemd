@@ -7,6 +7,7 @@ esac
 mkdir -pv $LFS/{dev,proc,sys,run,tmp}
 findmnt $LFS/dev || mount -v --bind /dev $LFS/dev
 findmnt $LFS/dev/pts || mount -vt devpts devpts -o gid=5,mode=0620 $LFS/dev/pts
+chmod 666 /dev/pts/ptmx
 findmnt $LFS/proc || mount -vt proc proc $LFS/proc
 findmnt $LFS/sys || mount -vt sysfs sysfs $LFS/sys
 findmnt $LFS/run || mount -vt tmpfs tmpfs $LFS/run
