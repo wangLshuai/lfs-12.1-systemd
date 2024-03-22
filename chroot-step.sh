@@ -161,3 +161,4 @@ rm -rf /tools
 /chroot-steps/compile-kbd-2.6.4.sh
 /chroot-steps/compile-libpipeline-1.5.7.sh
 /chroot-steps/compile-make-4.4.1.sh
+/chroot-steps/compile-patch-2.7.6.sh
