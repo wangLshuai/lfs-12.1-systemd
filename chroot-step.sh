@@ -168,3 +168,4 @@ rm -rf /tools
 /chroot-steps/compile-markupsafe-2.1.5.sh
 /chroot-steps/compile-jinja2-3.1.3.sh
 /chroot-steps/compile-systemd-255.sh
+/chroot-steps/compile-d-bus-1.14.10.sh
