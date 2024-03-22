@@ -145,3 +145,4 @@ rm -rf /tools
 /chroot-steps/compile-libffi-3.4.4.sh
 /chroot-steps/compile-python-3.12.2.sh
 /chroot-steps/compile-flit-core-3.9.0.sh
+/chroot-steps/compile-wheel-0.42.0.sh
