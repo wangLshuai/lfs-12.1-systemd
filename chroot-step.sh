@@ -148,3 +148,4 @@ rm -rf /tools
 /chroot-steps/compile-wheel-0.42.0.sh
 /chroot-steps/compile-setuptools-69.1.0.sh
 /chroot-steps/compile-ninja-1.11.1.sh
+/chroot-steps/compile-meson-1.3.2.sh
