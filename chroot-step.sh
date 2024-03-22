@@ -151,3 +151,4 @@ rm -rf /tools
 /chroot-steps/compile-meson-1.3.2.sh
 /chroot-steps/compile-coreutils-9.4.sh
 /chroot-steps/compile-check-0.15.2.sh
+/chroot-steps/compile-diffutils-3.10.sh
