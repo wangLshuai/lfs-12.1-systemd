@@ -159,3 +159,4 @@ rm -rf /tools
 /chroot-steps/compile-gzip-1.13.sh
 /chroot-steps/compile-iproute2-6.7.0.sh
 /chroot-steps/compile-kbd-2.6.4.sh
+/chroot-steps/compile-libpipeline-1.5.7.sh
