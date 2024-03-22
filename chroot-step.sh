@@ -171,3 +171,4 @@ rm -rf /tools
 /chroot-steps/compile-d-bus-1.14.10.sh
 /chroot-steps/compile-man-db-2.12.0.sh
 /chroot-steps/compile-procps-ng-4.0.4.sh
+/chroot-steps/compile-util-linux-2.39.3.sh
