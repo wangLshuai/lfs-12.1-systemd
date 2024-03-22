@@ -164,3 +164,4 @@ rm -rf /tools
 /chroot-steps/compile-patch-2.7.6.sh
 /chroot-steps/compile-tar-1.35.sh
 /chroot-steps/compile-texinfo-7.1.sh
+/chroot-steps/compile-vim-9.1.0041.sh
