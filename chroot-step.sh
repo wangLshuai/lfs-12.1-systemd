@@ -167,3 +167,4 @@ rm -rf /tools
 /chroot-steps/compile-vim-9.1.0041.sh
 /chroot-steps/compile-markupsafe-2.1.5.sh
 /chroot-steps/compile-jinja2-3.1.3.sh
+/chroot-steps/compile-systemd-255.sh
