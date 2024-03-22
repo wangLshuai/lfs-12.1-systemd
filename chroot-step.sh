@@ -152,3 +152,4 @@ rm -rf /tools
 /chroot-steps/compile-coreutils-9.4.sh
 /chroot-steps/compile-check-0.15.2.sh
 /chroot-steps/compile-diffutils-3.10.sh
+/chroot-steps/compile-gawk-5.3.0.sh
