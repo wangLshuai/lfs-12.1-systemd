@@ -156,3 +156,4 @@ rm -rf /tools
 /chroot-steps/compile-findutils-4.9.0.sh
 /chroot-steps/compile-groff-1.23.0.sh
 /chroot-steps/compile-grub-2.12.sh
+/chroot-steps/compile-gzip-1.13.sh
