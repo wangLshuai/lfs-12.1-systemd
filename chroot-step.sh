@@ -173,3 +173,9 @@ rm -rf /tools
 /chroot-steps/compile-procps-ng-4.0.4.sh
 /chroot-steps/compile-util-linux-2.39.3.sh
 /chroot-steps/compile-e2fsprogs-1.47.0.sh
+/chroot-steps/strip-debug-sysbol.sh
+
+rm -rf /tmp/*
+find /usr/lib /usr/libexec -name \*.la -delete
+find /usr -depth -name $(uname -m)-lfs-linux-gnu\* |xargs rm -rf
+userdel -r tester
