@@ -169,3 +169,4 @@ rm -rf /tools
 /chroot-steps/compile-jinja2-3.1.3.sh
 /chroot-steps/compile-systemd-255.sh
 /chroot-steps/compile-d-bus-1.14.10.sh
+/chroot-steps/compile-man-db-2.12.0.sh
