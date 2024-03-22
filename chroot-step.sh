@@ -162,3 +162,4 @@ rm -rf /tools
 /chroot-steps/compile-libpipeline-1.5.7.sh
 /chroot-steps/compile-make-4.4.1.sh
 /chroot-steps/compile-patch-2.7.6.sh
+/chroot-steps/compile-tar-1.35.sh
