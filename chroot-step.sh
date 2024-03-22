@@ -158,3 +158,4 @@ rm -rf /tools
 /chroot-steps/compile-grub-2.12.sh
 /chroot-steps/compile-gzip-1.13.sh
 /chroot-steps/compile-iproute2-6.7.0.sh
+/chroot-steps/compile-kbd-2.6.4.sh
