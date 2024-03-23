@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-env
-
+set -e
 mkdir -pv /{boot,home,mnt,opt,srv}
 mkdir -pv /etc{opt,sysconfig}
 mkdir -pv /media{floppy,cdrom}
@@ -14,8 +13,8 @@ mkdir -pv /var/lib/{color,misc,locate}
 ln -sfv /run /var/run
 ln -sfv /run/lock /var/lock
 
-install -dfv -m 0750 /root
-install -dfv -m 1777 /tmp /var/tmp
+install -dv -m 0750 /root
+install -dv -m 1777 /tmp /var/tmp
 
 ln -sfv /proc/self/mounts /etc/mtab
 cat > /etc/hosts << EOF
