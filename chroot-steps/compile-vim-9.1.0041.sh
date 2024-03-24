@@ -22,7 +22,7 @@ cat > /etc/vimrc << "EOF"
 " Begin /etc/vimrc
 
 " Ensuer default are set before customizing settings, not after
-source $VIMRUNTIME/default.vim
+source $VIMRUNTIME/defaults.vim
 let skip_default_vim=1
 
 set nocompatible
