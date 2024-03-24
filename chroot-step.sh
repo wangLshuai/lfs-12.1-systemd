@@ -154,6 +154,9 @@ rm -rf /tools
 /chroot-steps/compile-gawk-5.3.0.sh
 /chroot-steps/compile-findutils-4.9.0.sh
 /chroot-steps/compile-groff-1.23.0.sh
+/chroot-steps/compile-freetype-2.13.2.sh
+/chroot-steps/compile-libaio-0.3.113.sh
+/chroot-steps/compile-lvm2-2.03.23.sh
 /chroot-steps/compile-grub-2.12.sh
 /chroot-steps/compile-gzip-1.13.sh
 /chroot-steps/compile-iproute2-6.7.0.sh
