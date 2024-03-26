@@ -1,0 +1,19 @@
+step1 download source
+./download-source.sh 
+step2 install docker engine
+./docker-run.sh
+
+step3
+docker exec -it lfs-121-systemd-lfs_service-1 bash
+
+step4
+./step.sh
+
+step5
+./qemu-run.sh
+
+in chroot-steps/compile-shadown-4.14.5.sh
+user:root
+passwd:root
+
+
