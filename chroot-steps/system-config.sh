@@ -133,5 +133,5 @@ device=`findmnt / |sed -n '2p' | awk '{print $2}'`
 idFiled=`blkid $device  | awk '{for( i=1;i<=NF;i++) if ($i ~ /^UUID=/) print $i}' `
 uuid=${idFiled#*=}
 cat > /etc/fstab << EOF
-UUID=${uuid} / ext4 default 1 1
+/dev/sda2 / ext4 default 1 1
 EOF

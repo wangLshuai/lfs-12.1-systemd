@@ -28,6 +28,6 @@ pwconv
 grpconv
 mkdir -p /etc/default
 useradd -D --gid 999
-# passwd root
+echo "root:root"| chpasswd
 rm -rf /sources/shadow-4.14.5
 

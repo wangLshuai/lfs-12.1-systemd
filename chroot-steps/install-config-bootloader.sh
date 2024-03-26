@@ -13,12 +13,10 @@ insmod ext2
 search --no-floppy --fs-uuid --set=root $uuid
 
 insmod all_video
-if loadfont /boot/grub/fonts/unicode.pf2; then
- terminal_output gfxterm
-fi
-
+terminal_input console
+terminal_output console
 menuentry "GNU/Linux, Linux 6.7.4-lfs-12.1" {
-	linux /boot/vmlinuz root=UUID=$uuid ro
+	linux /boot/vmlinuz console=ttyS0 root=/dev/sda2 rw 
 
 }
 menuentry "Firmware Setup" {
