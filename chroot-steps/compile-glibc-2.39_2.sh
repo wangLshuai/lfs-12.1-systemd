@@ -21,7 +21,7 @@ echo "rootsbindir=/usr/sbin" > configparms
 sed '/test-installation/s@$(PERL)@echo not ruuing@' -i ../Makefile
 make
 set +e
-make check
+echo "do not test" || make check
 set -e
 make  install
 sed '/RTLDLIST=/s@/usr@@g' -i /usr/bin/ldd

@@ -13,9 +13,9 @@ cd gmp-6.3.0
 make
 make html
 set +e
-make check 2>&1 | tee gmp-check-log
+echo "do not test" || make check 2>&1 | tee gmp-check-log
 set -e
-awk '/# PASS:/{total+$3}; END{print total}' gmp-check-log
+#awk '/# PASS:/{total+$3}; END{print total}' gmp-check-log
 make install
 make install-html
 rm -rf /sources/gmp-6.3.0

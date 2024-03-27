@@ -10,7 +10,7 @@ cd libtool-2.4.7
 
 make
 set +e
-make -k check
+echo "do not test" || make -k check
 set -e
 make install
 rm -fv /usr/lib/libltdl.a

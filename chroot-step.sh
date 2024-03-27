@@ -184,3 +184,4 @@ userdel -r tester
 /chroot-steps/system-config.sh
 /chroot-steps/compile-linux-6.7.4.sh
 /chroot-steps/install-config-bootloader.sh
+rm -rf /souces

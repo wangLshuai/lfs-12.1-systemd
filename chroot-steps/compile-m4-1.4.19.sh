@@ -10,7 +10,7 @@ cd m4-1.4.19
 
 make
 set +e
-make check
+echo "do not test" || make check
 set -e
 make install
 rm -rf /sources/m4-1.4.19

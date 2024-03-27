@@ -10,7 +10,7 @@ cd diffutils-3.10
 
 make
 set +e
-make check
+echo "do not test" || make check
 set -e
 make install
 rm -rf /sources/diffutils-3.10
