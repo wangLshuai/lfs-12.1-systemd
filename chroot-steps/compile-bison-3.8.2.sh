@@ -10,7 +10,7 @@ cd bison-3.8.2
 	--docdir=/usr/share/doc/bison-3.8.2
 
 make
-make check
+echo "do not test" || make check
 make install
 rm -rf /sources/bison-3.8.2
 

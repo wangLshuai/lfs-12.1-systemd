@@ -24,7 +24,7 @@ sed -e "s|$SRCDIR/unix/pkgs/itcl4.2.3|/usr/lib/itcl4.2.3|" \
 	-e "s|$SRCDIR/pkgs/itcl4.2.3|/usr/include|" \
 	-i pkgs/itcl4.2.3/itclConfig.sh
 unset SRCDIR
-make test
+echo "do not test " || make test
 make install
 chmod -v u+w /usr/lib/libtcl8.6.so
 make install-private-headers

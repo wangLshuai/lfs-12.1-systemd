@@ -52,3 +52,4 @@ chroot "$LFS" /usr/bin/env -i \
 	MAKEFLAGS="-j$(nproc)" \
 	TESTSUITEFLAGS="-j$(nproc)" \
 	/chroot-step.sh
+./steps/remove-disk.sh

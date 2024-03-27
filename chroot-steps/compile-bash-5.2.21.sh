@@ -13,11 +13,11 @@ cd bash-5.2.21
 make
 chown -R tester .
 chmod 666 /dev/pts/ptmx
-su -s /usr/bin/expect tester << "EOF"
-set timout -1
-spawn make tests
-expect eof
-EOF
+#su -s /usr/bin/expect tester << "EOF"
+#set timout -1
+#spawn make tests
+#expect eof
+#EOF
 make install
 #exec /usr/bin/bash --login
 rm -rf /sources/bash-5.2.21

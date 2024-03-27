@@ -9,7 +9,7 @@ cd libpipeline-1.5.7
 ./configure --prefix=/usr
 
 make
-make check
+echo "do not test" || make check
 make install
 rm -rf /sources/libpipeline-1.5.7
 

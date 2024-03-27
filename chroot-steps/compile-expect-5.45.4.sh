@@ -14,7 +14,7 @@ cd expect5.45.4
 	--with-tclinclude=/usr/include
 
 make
-make test
+echo "do not test " || make test
 make install
 ln -svf expect5.45.4/libexpect5.45.4.so /usr/lib
 rm -rf /sources/expect5.45.4

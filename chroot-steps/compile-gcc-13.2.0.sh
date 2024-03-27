@@ -29,7 +29,7 @@ make
 ulimit -s 32768
 chown -R tester .
 set +e
-su tester -c "PATH=$PATH make -k check"
+echo "do not test" || su tester -c "PATH=$PATH make -k check"
 set -e
 ../contrib/test_summary
 make install

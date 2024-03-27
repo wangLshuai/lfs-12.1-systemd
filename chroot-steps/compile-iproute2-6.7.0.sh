@@ -11,7 +11,7 @@ rm -fv man/man8/arpd.8
 
 make NETNS_RUN_DIR=/run/netns
 make SBINDIR=/usr/sbin install
-mkdir -v /usr/share/doc/iproute2-6.7.0
+mkdir -pv /usr/share/doc/iproute2-6.7.0
 cp -v COPYING README* /usr/share/doc/iproute2-6.7.0
 rm -rf /sources/iproute2-6.7.0
 

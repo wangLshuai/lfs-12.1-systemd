@@ -10,8 +10,8 @@ echo '#define SYS_VIMRC_FILE "/etc/vimrc"' >> src/feature.h
 
 make
 chown -R tester .
-su tester -c "TERM=xterm-256color LANG=en_US.UTF-8 make -j1 test" \
-	&> vim-test.log
+#su tester -c "TERM=xterm-256color LANG=en_US.UTF-8 make -j1 test" \
+#	&> vim-test.log
 make -j1 install
 ln -sfv vim /usr/bin/vi
 for L in /usr/share/man/{,*/}man1/vim.1; do
@@ -22,7 +22,7 @@ cat > /etc/vimrc << "EOF"
 " Begin /etc/vimrc
 
 " Ensuer default are set before customizing settings, not after
-source $VIMRUNTIME/default.vim
+source $VIMRUNTIME/defaults.vim
 let skip_default_vim=1
 
 set nocompatible

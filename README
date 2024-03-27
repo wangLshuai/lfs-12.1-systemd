@@ -1,0 +1,28 @@
+
+# [Linux From scrach](https://www.linuxfromscratch.org/lfs/read.html)
+## step1 download source
+```shell
+./download-source.sh 
+```
+## step2 install docker engine
+[docker install](https://docs.docker.com/engine/install/)
+## step3 build and run docker container
+```shell
+./docker-run.sh
+```
+
+## step4 build image in docker container
+```shell
+docker exec -it lfs-121-systemd-lfs_service-1 bash
+./step.sh
+```
+
+## step5 run qemu in docker container
+```shell
+./qemu-run.sh
+```
+in chroot-steps/compile-shadown-4.14.5.sh ,set user and password
+username:root
+passwd:root
+
+
