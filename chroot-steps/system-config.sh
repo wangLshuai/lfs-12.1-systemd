@@ -135,3 +135,21 @@ uuid=${idFiled#*=}
 cat > /etc/fstab << EOF
 /dev/sda2 / ext4 default 1 1
 EOF
+
+# release
+echo 12.1-systemd-uefi > /etc/lsb-release
+cat > /etc/lsb-release << "EOF"
+DISTRIB="Linux From Scratch"
+DISTRIB_RELEASE="12.1-systemd"
+DISTRIB_CODENAME="wangshuai"
+DISTRIB_DESCRIPTION="Linux From Scratch"
+EOF
+cat > /etc/os-release << "EOF"
+NAME="Linux From Scratch"
+VERSION="12.1=systemd"
+ID=lfs
+PRETTY_NAME="Linux From Scratch 12.1-systemd"
+VERSION_CODENAME="wangshuai"
+HOME_URL="https://www.linuxfromscratch.org/lfs/"
+EOF
+

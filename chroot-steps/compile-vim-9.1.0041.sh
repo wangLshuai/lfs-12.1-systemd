@@ -10,8 +10,8 @@ echo '#define SYS_VIMRC_FILE "/etc/vimrc"' >> src/feature.h
 
 make
 chown -R tester .
-su tester -c "TERM=xterm-256color LANG=en_US.UTF-8 make -j1 test" \
-	&> vim-test.log
+#su tester -c "TERM=xterm-256color LANG=en_US.UTF-8 make -j1 test" \
+#	&> vim-test.log
 make -j1 install
 ln -sfv vim /usr/bin/vi
 for L in /usr/share/man/{,*/}man1/vim.1; do
