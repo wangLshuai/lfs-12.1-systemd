@@ -15,8 +15,11 @@ cat > /etc/systemd/network/10-eth-dhcp.network << "EOF"
 Name=eth0
 
 [Network]
-DHCP=ipv4
-UserDomains=true
+#DHCP=ipv4
+#UserDomains=true
+DHCP=static
+Address=192.168.55.200/24
+Gateway=192.168.55.1
 EOF
 
 cat > /etc/resolv.conf << EOF
