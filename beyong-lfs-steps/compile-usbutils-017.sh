@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-cd /sources
+cd /beyong-sources
 
 rm -rf usbutils-017
 tar -xvf usbutils-017.tar.xz
@@ -12,5 +12,5 @@ make
 make install
 install -dm755 /usr/share/hwdata
 wget http://www.linux-usb.org/usb.ids -O /usr/share/hwdata/usb.ids
-rm -rf /sources/usbutils-017
+rm -rf /beyong-sources/usbutils-017
 

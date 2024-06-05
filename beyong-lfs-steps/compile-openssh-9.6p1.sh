@@ -7,7 +7,7 @@ install -v -g sys -m700 -d /var/lib/sshd && groupadd -g 50 sshd && \
 	-s /bin/false \
 	-u 50 sshd
 
-cd /sources
+cd /beyong-sources
 
 rm -rf openssh-9.6p1
 tar -xvf openssh-9.6p1.tar.gz
@@ -26,7 +26,7 @@ install -v -m755 contrib/ssh-copy-id /usr/bin
 install -v -m644 contrib/ssh-copy-id.1 /usr/share/man/man1
 install -v -m755 -d /usr/share/doc/openssl-9.6p1
 install -v -m644 INSTALL LICENSE OVERVIEW README* /usr/share/doc/openssh-9.6p1
-rm -rf /sources/openssh-9.6p1
+rm -rf /beyong-sources/openssh-9.6p1
 
 cat > /usr/lib/systemd/system/sshd.service <<EOF
 [Unit]

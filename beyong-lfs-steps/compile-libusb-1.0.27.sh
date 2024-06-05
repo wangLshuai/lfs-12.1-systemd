@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-cd /sources
+cd /beyong-sources
 
 rm -rf libusb-1.0.27
 tar -xvf libusb-1.0.27.tar.bz2 
@@ -10,5 +10,5 @@ cd libusb-1.0.27
 
 make
 make install
-rm -rf /sources/libusb-1.0.27
+rm -rf /beyong-sources/libusb-1.0.27
 
