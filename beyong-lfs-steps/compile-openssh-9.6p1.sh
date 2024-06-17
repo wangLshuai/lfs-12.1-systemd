@@ -24,8 +24,8 @@ make
 make install
 install -v -m755 contrib/ssh-copy-id /usr/bin
 install -v -m644 contrib/ssh-copy-id.1 /usr/share/man/man1
-install -v -m755 -d /usr/share/doc/openssl-9.6p1
-install -v -m644 INSTALL LICENSE OVERVIEW README* /usr/share/doc/openssh-9.6p1
+install -v -m755 -d /usr/share/doc/openssh-9.6p1
+install -v -m644 INSTALL LICENCE OVERVIEW README* /usr/share/doc/openssh-9.6p1
 rm -rf /beyong-sources/openssh-9.6p1
 
 cat > /usr/lib/systemd/system/sshd.service <<EOF
