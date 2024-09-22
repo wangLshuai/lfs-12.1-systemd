@@ -6,3 +6,6 @@ set -e
 /beyong-lfs-steps/compile-libusb-1.0.27.sh
 /beyong-lfs-steps/compile-usbutils-017.sh
 /beyong-lfs-steps/compile-lsof-4.99.0.sh
+/beyong-lfs-steps/compile-pciutils-3.13.0.sh
+/beyong-lfs-steps/compile-hwdata-0.385.sh
+
